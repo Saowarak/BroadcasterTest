@@ -8,15 +8,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rmutr.narubeth.saowarak.norapol.broadcastertest.SplashScreen"
-    android:background="@drawable/background">
+    android:background="@drawable/backgroundhero">
 
     <ImageView
         android:layout_width="@dimen/logo"
         android:layout_height="@dimen/logo"
         android:id="@+id/imageView"
         android:layout_alignParentBottom="false"
-        android:layout_centerInParent="true"
         android:layout_alignParentTop="false"
         android:layout_alignParentLeft="false"
-        android:src="@drawable/master_swift2" />
+        android:src="@drawable/logo"
+        android:background="@drawable/logo"
+        android:layout_centerInParent="true" />
 </RelativeLayout>
